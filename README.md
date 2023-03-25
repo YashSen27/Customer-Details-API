@@ -1,4 +1,4 @@
-# Java Rest API 2 Server
+# Java Rest API 2 Server for Task1
 
 Java Rest API 2 Server/Web-UI is a project based Java Rest API CURD functionalities to Create, Delete, Get server objects using json-encoded message body(postman) or using Web UI.
 # Tech Stack
@@ -59,7 +59,7 @@ maven spring-boot:run
 
 ```
 ## Docker Build
-* Creating a Dockerfile for task4 kubernetes Deployment.
+* Creating a Dockerfile for Task3 kubernetes Deployment.
 ```
 FROM openjdk:18-jdk-alpine
 RUN mkdir app
@@ -93,7 +93,7 @@ PUT    http://127.0.0.1:6035/servers/edit/{id} - To edit the server by name/id.
 ## Screenshots
 
 
-## Using Web UI Forms
+## Using Web UI Forms (Task4)
 ![createserver](https://user-images.githubusercontent.com/64476159/163685021-ef5cfa85-74f2-4854-b96c-33b5e9f635bd.gif)
 ![delete-update](https://user-images.githubusercontent.com/64476159/163685029-21b1e87b-db53-43c9-afef-9aba3347fb89.gif)
 
